@@ -1,4 +1,4 @@
-FROM php:7.1.14-fpm
+FROM php:7.1.20-fpm
 
 RUN docker-php-ext-install pdo pdo_mysql
 RUN docker-php-ext-install mbstring
